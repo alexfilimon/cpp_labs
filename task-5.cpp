@@ -83,15 +83,18 @@ double inputDouble(string text){
     }
 };
 
+
+//ifstream in ("rects.txt"); //Открываем файл для считывания информации 
 //functions for rect
 rect inputRect(){
     rect cur;
-    ifstream in ("rects.txt"); //Открываем файл для считывания информации 
     
-    /*string text = "Введите ширину прямоугольника: ";
+    //in >> cur.width;
+    //in >> cur.height;
+    string text = "Введите ширину прямоугольника: ";
     cur.width = inputDouble(text);
     text = "Введите высоту прямоугольника: ";
-    cur.height = inputDouble(text);*/
+    cur.height = inputDouble(text);
     
     return cur;
 };
@@ -278,6 +281,6 @@ int main() {
     
     
     
-    
+    //in.close(); // Закрываем файл
     return 0;
 }
