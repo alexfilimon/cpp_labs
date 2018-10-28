@@ -1,4 +1,4 @@
-##HeapSort
+## HeapSort
 
 The heapsort algorithm involves preparing the list by first turning it into a max heap. The algorithm then repeatedly swaps the first value of the list with the last value, decreasing the range of values considered in the heap operation by one, and sifting the new first value into its position in the heap. This repeats until the range of considered values is one value in length.
 
@@ -25,7 +25,7 @@ The base case of the recursion is arrays of size zero or one, which are in order
 
 The pivot selection and partitioning steps can be done in several different ways; the choice of specific implementation schemes greatly affects the algorithm's performance.
 
-##Stack
+## Stack
 
 A stack is a container of objects that are inserted and removed according to the last-in first-out (**LIFO**) principle. In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack. A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.
 
@@ -33,5 +33,5 @@ A stack is a container of objects that are inserted and removed according to the
 Based on hash-table task. Hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
 It takes width and height of rectangle from `rects.txt`
 
-#Universal
+## Universal
 Nobody knows what it is because it's not created yet (or just full of space and void)
